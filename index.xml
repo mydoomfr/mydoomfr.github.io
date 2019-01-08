@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Blog</title>
+    <title>mydoomfr | Blog</title>
     <link>https://blog.benjamin-pinchon.fr/</link>
-    <description>Recent content on Blog</description>
+    <description>Recent content on mydoomfr | Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Tue, 08 Jan 2019 13:30:52 +0100</lastBuildDate>
@@ -12,38 +12,27 @@
     
     
     <item>
-      <title>Hello, wolrd!</title>
-      <link>https://blog.benjamin-pinchon.fr/post/test/</link>
+      <title>A propos</title>
+      <link>https://blog.benjamin-pinchon.fr/about/</link>
       <pubDate>Tue, 08 Jan 2019 13:30:52 +0100</pubDate>
       
-      <guid>https://blog.benjamin-pinchon.fr/post/test/</guid>
+      <guid>https://blog.benjamin-pinchon.fr/about/</guid>
       
-        <description>&lt;p&gt;Ceci est un test :)&lt;/p&gt;
-
-&lt;p&gt;Et ceci un second !t&lt;/p&gt;
+        <description>&lt;p&gt;Bientôt. :-)&lt;/p&gt;
 </description>
       
     </item>
     
     <item>
-      <title>About</title>
-      <link>https://blog.benjamin-pinchon.fr/about/</link>
-      <pubDate>Sun, 20 Aug 2017 21:38:52 +0800</pubDate>
+      <title>Hello, wolrd!</title>
+      <link>https://blog.benjamin-pinchon.fr/post/hello_world/</link>
+      <pubDate>Tue, 08 Jan 2019 13:30:52 +0100</pubDate>
       
-      <guid>https://blog.benjamin-pinchon.fr/about/</guid>
+      <guid>https://blog.benjamin-pinchon.fr/post/hello_world/</guid>
       
-        <description>&lt;p&gt;Hugo is a static site engine written in Go.&lt;/p&gt;
+        <description>&lt;p&gt;Ceci est un test :)&lt;/p&gt;
 
-&lt;p&gt;It makes use of a variety of open source projects including:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/spf13/cobra&#34;&gt;Cobra&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/spf13/viper&#34;&gt;Viper&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/spf13/jWalterWeatherman&#34;&gt;J Walter Weatherman&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/spf13/cast&#34;&gt;Cast&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Learn more and contribute on &lt;a href=&#34;https://github.com/gohugoio&#34;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Et ceci un second !&lt;/p&gt;
 </description>
       
     </item>
