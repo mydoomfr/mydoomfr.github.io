@@ -23,19 +23,5 @@
       
     </item>
     
-    <item>
-      <title>Hello, wolrd!</title>
-      <link>https://blog.benjamin-pinchon.fr/post/hello_world/</link>
-      <pubDate>Tue, 08 Jan 2019 13:30:52 +0100</pubDate>
-      
-      <guid>https://blog.benjamin-pinchon.fr/post/hello_world/</guid>
-      
-        <description>&lt;p&gt;Ceci est un test :)&lt;/p&gt;
-
-&lt;p&gt;Et ceci un second !&lt;/p&gt;
-</description>
-      
-    </item>
-    
   </channel>
 </rss>
