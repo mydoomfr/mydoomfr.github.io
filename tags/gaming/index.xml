@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on mydoomfr | Blog</title>
-    <link>https://blog.mydoom666.com/post/</link>
-    <description>Recent content in Posts on mydoomfr | Blog</description>
+    <title>Gaming on mydoomfr | Blog</title>
+    <link>https://blog.mydoom666.com/tags/gaming/</link>
+    <description>Recent content in Gaming on mydoomfr | Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Fri, 11 Jan 2019 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://blog.mydoom666.com/post/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://blog.mydoom666.com/tags/gaming/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -24,17 +24,6 @@
 &lt;/ul&gt;
 
 &lt;p&gt;Dans l&amp;rsquo;optique de jouer dans de bonnes conditions avec &lt;a href=&#34;https://shadow.tech&#34; title=&#34;Shadow-PC&#34;&gt;Shadow-PC&lt;/a&gt;, j&amp;rsquo;ai voulu passer mon écran BenQ de &lt;code&gt;60Hz&lt;/code&gt; à &lt;code&gt;144Hz&lt;/code&gt;&amp;hellip; Et là c&amp;rsquo;est le drame, ça tourne mal, la suite va vous étonner !&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Hello, world!</title>
-      <link>https://blog.mydoom666.com/2019/hello-world/</link>
-      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://blog.mydoom666.com/2019/hello-world/</guid>
-      <description>&lt;p&gt;Bonne année !&lt;/p&gt;
-
-&lt;p&gt;Ceci est le premier (et dernier?) article.&lt;/p&gt;</description>
     </item>
     
   </channel>
