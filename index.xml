@@ -1,84 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>mydoomfr | Blog</title>
+    <title>mydoomfr | blog</title>
     <link>https://blog.mydoom666.com/</link>
-    <description>Recent content on mydoomfr | Blog</description>
+    <description>Recent content on mydoomfr | blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Fri, 11 Jan 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 03 Apr 2019 00:00:00 +0000</lastBuildDate>
     
-        <atom:link href="https://blog.mydoom666.com/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://blog.mydoom666.com/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>MacOS Mojave 144Hz &#43; Anti-Aliasing</title>
-      <link>https://blog.mydoom666.com/2019/macos-mojave-144hz-anti-aliasing/</link>
-      <pubDate>Fri, 11 Jan 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://blog.mydoom666.com/2019/macos-mojave-144hz-anti-aliasing/</guid>
-      
-        <description>&lt;p&gt;Depuis quelques semaines j&amp;rsquo;utilise un Macbook Pro comme ordinateur principal, relié a deux écrans via des adaptateurs classiques USB-C vers HDMI.&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Le premier est un écran LG (IPS) 1080p @ 60Hz.&lt;/li&gt;
-&lt;li&gt;Le second est un BenQ (TN) 1080p @ 144Hz.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Dans l&amp;rsquo;optique de jouer dans de bonnes conditions avec &lt;a href=&#34;https://shadow.tech&#34; title=&#34;Shadow-PC&#34;&gt;Shadow-PC&lt;/a&gt;, j&amp;rsquo;ai voulu passer mon écran BenQ de &lt;code&gt;60Hz&lt;/code&gt; à &lt;code&gt;144Hz&lt;/code&gt;&amp;hellip; Et là c&amp;rsquo;est le drame, ça tourne mal, la suite va vous étonner !&lt;/p&gt;
-
-&lt;h2 id=&#34;the-problem&#34;&gt;The problem&lt;/h2&gt;
-
-&lt;p&gt;&lt;strong&gt;Impossible d&amp;rsquo;obtenir une fréquence de rafraîchissement &amp;gt; 60Hz&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Bon, ça commence mal car dans les options &amp;ldquo;Moniteurs&amp;rdquo; je n&amp;rsquo;ai pas la possibilité d&amp;rsquo;augmenter la fréquence de rafraichissement qui semble déjà au maximum : &lt;code&gt;60Hz&lt;/code&gt;.&lt;/p&gt;
-
-&lt;p&gt;Pourtant, c&amp;rsquo;est pas faute d&amp;rsquo;avoir testé moult cables et adaptateurs :&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Les fameux multi-adaptateurs USB-C hors de prix&amp;hellip; &lt;a href=&#34;https://www.amazon.fr/gp/product/B0791YWQV7&#34;&gt;(ref. Amazon)&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Un câble USB-C &amp;lt;&amp;gt; HDMI 2.1 &lt;code&gt;4K@60Hz&lt;/code&gt; et &lt;code&gt;1080p@144Hz&lt;/code&gt; et compatible Macbook Pro 2018 et Thunderbolt 3 &lt;a href=&#34;https://www.amazon.fr/gp/product/B07F2ZR5NH&#34;&gt;(ref. Amazon)&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;the-solution-displayport&#34;&gt;The Solution : Displayport&lt;/h2&gt;
-
-&lt;p&gt;J&amp;rsquo;ai finalement réussi avec un câble vers Displayport &lt;a href=&#34;https://www.amazon.fr/gp/product/B075V27G2R&#34;&gt;(ref. Amazon)&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;It works ! 🤩&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://blog.mydoom666.com/img/2019-01-11-MacOS-Mojave-144Hz-001.png&#34; alt=&#34;MacOS-Mojave-144Hz-Settings-Image&#34; /&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&#34;wtf-anti-aliasing-en-vacances&#34;&gt;WTF, Anti-Aliasing en vacances ?&lt;/h2&gt;
-
-&lt;p&gt;Je constate très rapidement qu&amp;rsquo;il est difficile de lire du texte sur l&amp;rsquo;écran en &lt;code&gt;144Hz&lt;/code&gt;.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;R.I.P l&amp;rsquo;anti-aliasing&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://blog.mydoom666.com/meme/001-mad.gif&#34; alt=&#34;Meme-Mad-Image&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Une recherche sur l&amp;rsquo;internet m&amp;rsquo;informe que le problème est largement constaté depuis la version Mojave avec des écrans externes non-Retina.&lt;/p&gt;
-
-&lt;p&gt;La solution consiste à désactiver l&amp;rsquo;option &lt;code&gt;CGFontRenderingFontSmoothingDisabled&lt;/code&gt;. Voici la commande à saisir dans un Terminal :&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;defaults write -g CGFontRenderingFontSmoothingDisabled -bool FALSE
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Il est nécessaire de se déconnecter / reconnecter (ou redémarrer) pour appliquer le changement. Et pour annuler le changement c&amp;rsquo;est facile, il suffit de changer la valeur &lt;code&gt;FALSE&lt;/code&gt; à &lt;code&gt;TRUE&lt;/code&gt;.&lt;/p&gt;</description>
-      
-    </item>
     
     <item>
       <title>Hello, world!</title>
-      <link>https://blog.mydoom666.com/2019/hello-world/</link>
-      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <link>https://blog.mydoom666.com/post/hello-world/</link>
+      <pubDate>Wed, 03 Apr 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://blog.mydoom666.com/2019/hello-world/</guid>
-      
-        <description>&lt;p&gt;Bonne année !&lt;/p&gt;
-
-&lt;p&gt;Ceci est le premier (et dernier?) article.&lt;/p&gt;</description>
-      
+      <guid>https://blog.mydoom666.com/post/hello-world/</guid>
+      <description>Come back later!</description>
     </item>
     
   </channel>
