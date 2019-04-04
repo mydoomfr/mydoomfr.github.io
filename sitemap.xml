@@ -3,19 +3,13 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://blog.mydoom666.com/post/hello-world/</loc>
-    <lastmod>2019-04-03T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://blog.mydoom666.com/post/</loc>
-    <lastmod>2019-04-03T00:00:00+00:00</lastmod>
-    <priority>0</priority>
+    <loc>https://blog.mydoom666.com/uses/</loc>
+    <lastmod>2019-04-04T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://blog.mydoom666.com/</loc>
-    <lastmod>2019-04-03T00:00:00+00:00</lastmod>
+    <lastmod>2019-04-04T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   

@@ -5,18 +5,20 @@
     <link>https://blog.mydoom666.com/</link>
     <description>Recent content on mydoomfr | blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Wed, 03 Apr 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 04 Apr 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://blog.mydoom666.com/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Hello, world!</title>
-      <link>https://blog.mydoom666.com/post/hello-world/</link>
-      <pubDate>Wed, 03 Apr 2019 00:00:00 +0000</pubDate>
+      <title>/Uses/</title>
+      <link>https://blog.mydoom666.com/uses/</link>
+      <pubDate>Thu, 04 Apr 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://blog.mydoom666.com/post/hello-world/</guid>
-      <description>Come back later!</description>
+      <guid>https://blog.mydoom666.com/uses/</guid>
+      <description>I&amp;rsquo;m regularly interested to understand the kind of software and hardware are others using in their daily routines. This page intends to share my current setup.
+Additionally, you can check the awesome-uses repository that covers a good list of uses from other bloggers: https://github.com/wesbos/awesome-uses
+💻 The tools I use on a MacBook Pro 2018 Work Environment  VS Code: My primary IDE, used to open single files, scripting, markdown. JetBrains: For large projects.</description>
     </item>
     
   </channel>
