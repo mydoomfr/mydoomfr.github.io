@@ -1,0 +1,100 @@
+baseURL = "https://blog.mdfr.me/"
+title   = "Benjamin Pinchon"
+
+DefaultContentLanguage = "en"
+theme = "hello-friend-ng"
+
+pygmentsCodefences = false
+pygmentsUseClasses = false
+
+rssLimit  = 10  # Maximum number of items in the RSS feed.
+copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License." # This message is only used by the RSS template.
+
+# googleAnalytics = ""
+# disqusShortname = ""
+
+buildDrafts  = false
+buildFuture  = false
+canonifyURLs = true
+
+enableRobotsTXT = true
+enableGitInfo   = true
+enableEmoji     = true
+enableMissingTranslationPlaceholders = false
+disableRSS     = false
+disableSitemap = false
+disable404     = false
+disableHugoGeneratorInject = false
+
+[permalinks]
+  posts = "/posts/:year/:month/:title/"
+
+[author]
+  name = "Benjamin Pinchon"
+
+[blackfriday]
+  hrefTargetBlank = true
+
+# [taxonomies]
+#   tag      = "tags"
+#   category = ""
+
+[params]
+  dateform        = "Jan 2, 2006"
+  dateformShort   = "Jan 2"
+  dateformNum     = "2006-01-02"
+  dateformNumTime = "2006-01-02 15:04 -0700"
+
+  # Metadata mostly used in document's head
+  description = "Homepage and blog by Benjamin Pinchon"
+  keywords = "homepage, blog, science, development, programming, projects, cloud, software, golang, python, ansible, docker, kubernetes, k8s"
+  images = [""]
+
+  homeSubtitle = "DevOps Engineer"
+
+  # Prefix of link to the git commit detail page.
+  gitUrl = "https://github.com/mydoomfr/mydoomfr.github.io/commit/"
+
+  # Default theme "light" or "dark"
+  defaultTheme = "dark"
+
+  [params.logo]
+    logoText     = "$ service start mydoomfr"
+    logoHomeLink = "/"
+
+  # Social icons
+  [[params.social]]
+    name = "twitter"
+    url  = "https://twitter.com/mydoomfr/"
+
+  [[params.social]]
+    name = "email"
+    url  = "mailto:mydoomfr@pm.me"
+
+  [[params.social]]
+    name = "github"
+    url  = "https://github.com/mydoomfr/"
+
+  [[params.social]]
+    name = "linkedin"
+    url  = "https://www.linkedin.com/in/benjaminpinchon/"
+
+[languages]
+  [languages.en]
+    subtitle  = "Homepage & Blog"
+    weight    = 1
+    copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
+
+[menu]
+  [[menu.main]]
+    identifier = "about"
+    name       = "About"
+    url        = "about/"
+  [[menu.main]]
+    identifier = "posts"
+    name       = "Articles"
+    url        = "posts/"
+  [[menu.main]]
+    identifier = "uses"
+    name       = "Uses"
+    url        = "uses/"

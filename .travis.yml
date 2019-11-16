@@ -1,0 +1,25 @@
+language: go
+
+go:
+  - 1.13.4
+
+install:
+  - go get github.com/gohugoio/hugo
+
+before_script:
+  - rm -rf public 2> /dev/null
+
+script:
+  - hugo
+  - echo "$CNAME_URL" > public/CNAME
+
+# Deploy to GitHub pages
+deploy:
+  provider: pages
+  skip-cleanup: true
+  github-token: $GITHUB_TOKEN  # Set in the settings page of your repository, as a secure variable
+  local_dir: public
+  target-branch: master
+  keep-history: true
+  on:
+    branch: sources
