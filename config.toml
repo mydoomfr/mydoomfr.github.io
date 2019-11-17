@@ -30,7 +30,7 @@ disableHugoGeneratorInject = false
   posts = "/posts/:year/:month/:title/"
 
 [author]
-  name = "Benjamin Pinchon"
+  name = "mydoomfr"
 
 [blackfriday]
   hrefTargetBlank = true
@@ -46,20 +46,20 @@ disableHugoGeneratorInject = false
   dateformNumTime = "2006-01-02 15:04 -0700"
 
   # Metadata mostly used in document's head
-  description = "Homepage and blog by Benjamin Pinchon"
+  description = "@mydoomfr - Homepage and blog by Benjamin Pinchon"
   keywords = "homepage, blog, science, development, programming, projects, cloud, software, golang, python, ansible, docker, kubernetes, k8s"
   images = [""]
 
-  homeSubtitle = "DevOps Engineer"
+  homeSubtitle = "Site Reliability Engineer 🇫🇷 "
 
   # Prefix of link to the git commit detail page.
   gitUrl = "https://github.com/mydoomfr/mydoomfr.github.io/commit/"
 
   # Default theme "light" or "dark"
-  defaultTheme = "dark"
+  defaultTheme = "light"
 
   [params.logo]
-    logoText     = "$ service start mydoomfr"
+    logoText     = "$ systemctl start blog"
     logoHomeLink = "/"
 
   # Social icons
@@ -69,7 +69,7 @@ disableHugoGeneratorInject = false
 
   [[params.social]]
     name = "email"
-    url  = "mailto:mydoomfr@pm.me"
+    url  = "mailto:contact@benjamin-pinchon.fr"
 
   [[params.social]]
     name = "github"
@@ -81,7 +81,7 @@ disableHugoGeneratorInject = false
 
 [languages]
   [languages.en]
-    subtitle  = "Homepage & Blog"
+    subtitle  = "Blog"
     weight    = 1
     copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
 
